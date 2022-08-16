@@ -30,4 +30,4 @@ mongoose.connect(URI, (err) => {
     }
 })
 
-app.listen(PORT, () => console.log(`App is listening on port ${PORT}`))
+app.listen(PORT, () => console.log(`Port ${PORT} has started`))
